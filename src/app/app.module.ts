@@ -16,6 +16,9 @@ import { DmainComponent } from './components/documentacion/dmain/dmain.component
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { SmainComponent } from './components/servicios/smain/smain.component';
 import { SheaderComponent } from './components/servicios/sheader/sheader.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { NheaderComponent } from './components/nosotros/nheader/nheader.component';
+import { NmainComponent } from './components/nosotros/nmain/nmain.component';
 
 
 @NgModule({
@@ -32,6 +35,9 @@ import { SheaderComponent } from './components/servicios/sheader/sheader.compone
     ServiciosComponent,
     SmainComponent,
     SheaderComponent,
+    NosotrosComponent,
+    NheaderComponent,
+    NmainComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
