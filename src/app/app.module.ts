@@ -10,6 +10,9 @@ import { HmainComponent } from './components/home/hmain/hmain.component';
 import { HheaderComponent } from './components/home/hheader/hheader.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DocumentacionComponent } from './components/documentacion/documentacion.component';
+import { DheaderComponent } from './components/documentacion/dheader/dheader.component';
+import { DmainComponent } from './components/documentacion/dmain/dmain.component';
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import { FooterComponent } from './components/footer/footer.component';
     HheaderComponent,
     NavComponent,
     FooterComponent,
+    DocumentacionComponent,
+    DheaderComponent,
+    DmainComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
