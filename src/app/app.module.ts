@@ -13,6 +13,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DocumentacionComponent } from './components/documentacion/documentacion.component';
 import { DheaderComponent } from './components/documentacion/dheader/dheader.component';
 import { DmainComponent } from './components/documentacion/dmain/dmain.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
+import { SmainComponent } from './components/servicios/smain/smain.component';
+import { SheaderComponent } from './components/servicios/sheader/sheader.component';
 
 
 @NgModule({
@@ -26,6 +29,9 @@ import { DmainComponent } from './components/documentacion/dmain/dmain.component
     DocumentacionComponent,
     DheaderComponent,
     DmainComponent,
+    ServiciosComponent,
+    SmainComponent,
+    SheaderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
