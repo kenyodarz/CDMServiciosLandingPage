@@ -63,14 +63,14 @@ nav ul li a {
   display: block;
 }
 nav ul:last-of-type li:last-of-type a {
-  background: deeppink;
+  background: #3555b3;
   padding: 10px;
   color: #fff;
   border-radius: 5px;
   font-weight: bold;
 }
 header {
-  background: url("/assets/img/2579.jpg");
+  background: url("/assets/img/servicios/MTTO-TRX-LISTA.jpg");
   background-position: bottom;
   background-size: 100%;
   height: 800px;
@@ -106,7 +106,7 @@ header .tagline a {
   width: 100px;
 }
 .contact {
-  background: deeppink;
+  background: #3555b3;
   text-decoration: none;
   color: #eee;
 }

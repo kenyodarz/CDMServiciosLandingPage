@@ -63,7 +63,7 @@ nav ul li a {
   display: block;
 }
 nav ul:last-of-type li:last-of-type a {
-  background: deeppink;
+  background: #3555b3;
   padding: 10px;
   color: #fff;
   border-radius: 5px;
@@ -106,7 +106,7 @@ header .tagline a {
   width: 100px;
 }
 .contact {
-  background: deeppink;
+  background: #3555b3;
   text-decoration: none;
   color: #eee;
 }
