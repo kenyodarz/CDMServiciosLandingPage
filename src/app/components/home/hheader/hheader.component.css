@@ -115,10 +115,10 @@ header .tagline a {
 }
 
 header img {
-  top: 600px;
+  top: 810px;
   position: absolute;
-  width: 740px;
-  right: 10%;
+  width: 360px;
+  right: 32%;
   display: block;
   z-index: 9;
 }
@@ -219,9 +219,10 @@ footer ul li:first-of-type {
   }
 
   header img {
-    top: 400px;
+    top: 630px;
     position: absolute;
-    width: 550px;
+    width: 180px;
+    right: 8%;
   }
   .overlay {
     height: 600px;
@@ -267,9 +268,10 @@ footer ul li:first-of-type {
     height: 450px;
   }
   header img {
-    top: 360px;
+    top: 460px;
     position: absolute;
-    width: 75%;
+    width: 40%;
+    right: 30%;
   }
 
   main div.intro {
@@ -326,7 +328,8 @@ footer ul li:first-of-type {
   header img {
     top: 280px;
     position: absolute;
-    width: 300px;
+    width: 240px;
+    right: 25%;
   }
 
   main div.intro {
@@ -395,10 +398,10 @@ footer ul li:first-of-type {
     height: 350px;
   }
   header img {
-    top: 340px;
+    top: 360px;
     position: absolute;
-    width: 300px;
-    right: 5%;
+    width: 200px;
+    right: 30%;
   }
 
   main div.intro {
