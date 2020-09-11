@@ -115,10 +115,10 @@ header .tagline a {
 }
 
 header img {
-  top: 600px;
+  top: 950px;
   position: absolute;
-  width: 740px;
-  right: 10%;
+  width: 485px;
+  right: 30%;
   display: block;
   z-index: 9;
 }
@@ -383,7 +383,7 @@ footer ul li:first-of-type {
 
   header {
     height: 350px;
-    background-size: 200%;
+    background-size: 100%;
   }
   header .tagline h1 {
     font-size: 2rem;
@@ -400,7 +400,7 @@ footer ul li:first-of-type {
     top: 400px;
     position: absolute;
     width: 300px;
-    right: 5%;
+    right: 20%;
   }
 
   main div.intro {
