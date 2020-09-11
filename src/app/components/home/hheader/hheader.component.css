@@ -219,9 +219,9 @@ footer ul li:first-of-type {
   }
 
   header img {
-    top: 420px;
+    top: 400px;
     position: absolute;
-    width: 600px;
+    width: 550px;
   }
   .overlay {
     height: 600px;
@@ -269,7 +269,7 @@ footer ul li:first-of-type {
   header img {
     top: 360px;
     position: absolute;
-    width: 65%;
+    width: 75%;
   }
 
   main div.intro {
@@ -324,7 +324,7 @@ footer ul li:first-of-type {
     height: 250px;
   }
   header img {
-    top: 300px;
+    top: 280px;
     position: absolute;
     width: 300px;
   }

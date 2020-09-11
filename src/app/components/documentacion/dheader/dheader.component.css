@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background: #222;
-  font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
 }
 body * {
@@ -13,7 +13,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
 }
 .container {
   width: 100%;
@@ -219,9 +219,9 @@ footer ul li:first-of-type {
   }
 
   header img {
-    top: 420px;
+    top: 600px;
     position: absolute;
-    width: 600px;
+    width: 500px;
   }
   .overlay {
     height: 600px;
@@ -267,9 +267,10 @@ footer ul li:first-of-type {
     height: 450px;
   }
   header img {
-    top: 360px;
+    top: 500px;
     position: absolute;
     width: 65%;
+    right: 20%;
   }
 
   main div.intro {
@@ -324,9 +325,10 @@ footer ul li:first-of-type {
     height: 250px;
   }
   header img {
-    top: 300px;
+    top: 325px;
     position: absolute;
     width: 300px;
+    right: 20%;
   }
 
   main div.intro {
@@ -395,7 +397,7 @@ footer ul li:first-of-type {
     height: 350px;
   }
   header img {
-    top: 340px;
+    top: 400px;
     position: absolute;
     width: 300px;
     right: 5%;

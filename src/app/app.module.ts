@@ -1,5 +1,6 @@
 // ANGULAR
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 // MODULES
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +20,7 @@ import { SheaderComponent } from './components/servicios/sheader/sheader.compone
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { NheaderComponent } from './components/nosotros/nheader/nheader.component';
 import { NmainComponent } from './components/nosotros/nmain/nmain.component';
+import { PrimengModule } from './primeng.module';
 
 
 @NgModule({
@@ -39,7 +41,12 @@ import { NmainComponent } from './components/nosotros/nmain/nmain.component';
     NheaderComponent,
     NmainComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    PrimengModule,
+  ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
