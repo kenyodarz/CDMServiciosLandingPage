@@ -428,7 +428,7 @@ footer ul li:first-of-type {
     display: block;
   }
   footer {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     text-align: center;
     padding: 0;
   }
