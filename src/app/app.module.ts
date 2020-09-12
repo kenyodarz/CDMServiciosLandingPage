@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HmainComponent } from './components/home/hmain/hmain.component';
 import { HheaderComponent } from './components/home/hheader/hheader.component';
-import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DocumentacionComponent } from './components/documentacion/documentacion.component';
 import { DheaderComponent } from './components/documentacion/dheader/dheader.component';
@@ -21,7 +20,7 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { NheaderComponent } from './components/nosotros/nheader/nheader.component';
 import { NmainComponent } from './components/nosotros/nmain/nmain.component';
 import { PrimengModule } from './primeng.module';
-
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { PrimengModule } from './primeng.module';
     HomeComponent,
     HmainComponent,
     HheaderComponent,
-    NavComponent,
     FooterComponent,
     DocumentacionComponent,
     DheaderComponent,
@@ -40,6 +38,7 @@ import { PrimengModule } from './primeng.module';
     NosotrosComponent,
     NheaderComponent,
     NmainComponent,
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,

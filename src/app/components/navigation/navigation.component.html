@@ -1,0 +1,26 @@
+<p-card>
+  <p-menubar [model]="items">
+    <ng-template pTemplate="start">
+      <img src="assets/img/cdm.svg" height="60" routerLink="home" />
+    </ng-template>
+
+    <div>
+      <!-- <span class="p-input-icon-left">
+        <i class="pi pi-search"></i>
+        <input
+          type="text"
+          class="p-inputtext-sm"
+          pInputText
+          placeholder="Buscar"
+        />
+      </span> -->
+      <button
+        type="button"
+        pButton
+        label="Apps"
+        icon="pi pi-tablet"
+        style="margin-left: 0.25em"
+      ></button>
+    </div>
+  </p-menubar>
+</p-card>
