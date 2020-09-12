@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background: #222;
-  font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
 }
 body * {
@@ -13,7 +13,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
 }
 .container {
   width: 100%;
@@ -181,7 +181,7 @@ main div:last-of-type {
 
 footer {
   background: #eee;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   align-items: top;
@@ -189,8 +189,10 @@ footer {
 }
 footer ul {
   padding: 10px;
-  width: 40%;
+  /* width: 40%; */
   list-style-type: none;
+  flex: 1;
+  margin-left: 20px;
 }
 footer ul li {
   margin: 10px;
@@ -355,7 +357,7 @@ footer ul li:first-of-type {
   }
   footer {
     background: #eee;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: top;
