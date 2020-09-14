@@ -73,7 +73,7 @@ nav ul:last-of-type li:last-of-type a {
   font-weight: bold;
 }
 header {
-  background: url("/assets/img/home/transformador-electrico.jpg") center center fixed;
+  background: url("../../../../assets/img/home/transformador-electrico.jpg") center center fixed;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% 100%;
