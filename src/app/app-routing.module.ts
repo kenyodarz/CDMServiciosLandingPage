@@ -6,19 +6,15 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'documentacion', component: DocumentacionComponent },
   { path: 'servicios', component: ServiciosComponent },
   { path: 'nosotros', component: NosotrosComponent },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+  { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, {
-      scrollPositionRestoration: 'enabled'
-    }),
-  ],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

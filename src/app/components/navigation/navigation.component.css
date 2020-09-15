@@ -1,3 +1,8 @@
 :host ::ng-deep .p-component {
-  font-family: Oswald, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-family: Oswald, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+}
+
+:host ::ng-deep .p-menubar {
+  border: none;
 }
